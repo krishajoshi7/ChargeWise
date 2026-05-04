@@ -1,7 +1,6 @@
 __pycache__/
 *.py[cod]
 .venv/
-.streamlit/
+.streamlit/secrets.toml
 models/
 data/*.csv
-

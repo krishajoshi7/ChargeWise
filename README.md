@@ -70,6 +70,17 @@ Useful endpoints:
 streamlit run dashboard/app.py
 ```
 
+## Deploy on Streamlit Community Cloud
+
+Use these settings when creating the app:
+
+- Repository: `krishajoshi7/ChargeWise`
+- Branch: `main`
+- Main file path: `dashboard/app.py`
+
+Streamlit Cloud installs packages from `requirements.txt`. The dashboard generates its demo data
+and model automatically on first startup, so no local `data/` or `models/` files need to be uploaded.
+
 ## Demo Story
 
 Use the dashboard to show:
@@ -79,4 +90,3 @@ Use the dashboard to show:
 3. Smart schedule recommendation shifting load to late night / early morning.
 4. Before vs after peak reduction.
 5. Top recommended zones for new charging stations.
-
